@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "dd070e16-6865-4ca1-80c8-9ddb95154137",
+		"name": "Postman echo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24356610"
+	},
+	"item": [
+		{
+			"name": "APIM hosted GET API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://apim01.azure-api.net/postmanecho/get",
+					"protocol": "https",
+					"host": [
+						"apim01",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"postmanecho",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APIM hosted POST API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://apim01.azure-api.net/postmanecho/post",
+					"protocol": "https",
+					"host": [
+						"apim01",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"postmanecho",
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
